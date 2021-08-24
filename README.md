@@ -16,7 +16,7 @@ Features of this device are as follows:-
 * Rainbow pattern on RGB
 * Play mario death tone every hour at 00 minute.
 * Each of 12 petal leds will glow one after another in clockwise fashion, denoting complition of 5 minutes.
-
+* Temperature sent to sincgrid cloud and data will be visible on sincgrid home app
 
 ### Android APP
 There is an Android application available at the play store for provisioning of the device (i.e. providing wifi ssid and passsword) and relaying the information.
@@ -65,3 +65,14 @@ After this app will automatically add the device.
 #### Regualr temperature update on the card
 After every 15 minutes device will send the temperature data from LM75.
 ![](Images/9.jpeg)
+
+## Libraries used during FDP are :- 
+
+* [esp32-Encrypt](https://github.com/josephpal/esp32-Encrypt.git)
+* bblanchon/ArduinoJson
+* [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer.git)
+* [AsyncTCP](https://github.com/me-no-dev/AsyncTCP.git)
+* [ESP32_AnalogWrite](https://github.com/ERROPiX/ESP32_AnalogWrite.git)
+* [NTPClient](https://github.com/MrityunjaiKumar/NTPClient.git)
+* [Tone](https://github.com/lbernstone/Tone.git)
+* PubSubClient
