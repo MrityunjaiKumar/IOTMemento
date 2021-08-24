@@ -1,5 +1,6 @@
 # IOTMemento
 
+![](Hardware/brdImage.png)
 
 ## Introduction
 This hardware was fabricated for AICTE Idea Lab FDP held at TI-CEPD, NSUT.
@@ -17,6 +18,12 @@ Features of this device are as follows:-
 * Play mario death tone every hour at 00 minute.
 * Each of 12 petal leds will glow one after another in clockwise fashion, denoting complition of 5 minutes.
 * Temperature sent to sincgrid cloud and data will be visible on sincgrid home app
+
+### Design files
+
+Editable files are located in Hardware folder
+
+![](Hardware/schImage.png)
 
 ### Android APP
 There is an Android application available at the play store for provisioning of the device (i.e. providing wifi ssid and passsword) and relaying the information.
